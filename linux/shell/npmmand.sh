@@ -55,7 +55,7 @@ echo -e "\033[36mvue path: ${dir_array[$num]}\033[0m"
 echo -e '\n'
 
 # npm 命令定义
-command_array=("cnpm install" "cnpm run build" "cnpm install && cnpm run build" "npm install" "npm run build" "npm install && npm run build")
+command_array=("cnpm install" "cnpm run build" "npm install" "npm run build")
 
 echo -e "\033[33m请选择要执行的npm命令\033[0m"
 for i in ${!command_array[@]}
