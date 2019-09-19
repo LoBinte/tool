@@ -38,6 +38,9 @@ elif echo $num | grep -q '[^0-9]';then
 elif [[ $num -lt 0 ]]||[[ $num -gt ${#dir_array[@]} ]];then
 	echo -e "\033[31mError: 错误的项目序号\033[0m"
 	exit
+elif [ ! -x "${dir_array[$num]}" ]; then
+        echo -e "\033[31mError: 该项目目录不存在或没有可执行权限\033[0m"
+        exit
 fi
 
 # 项目路径输出
