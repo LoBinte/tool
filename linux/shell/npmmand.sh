@@ -1,12 +1,15 @@
 #!/bin/sh
+# url:https://github.com/jefferyjob/tool
+
 #====================================================================
 #=== 项目路径定义 ===================================================
 #=== 请在此定义您的项目路径 ========================================
 #====================================================================
-
-dir_array[0]="/data/Web/make_client/web_make_client"
-dir_array[1]="/data/Web/make_client/web_make_client_back"
-
+dir_array=(
+"/data/Web/make_client/web_make_client"
+"/data/Web/make_client/web_make_client_back"
+"/data/Web/WebUPinVue"
+)
 
 
 #====================================================================
