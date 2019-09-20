@@ -101,7 +101,6 @@ if  [[ $verify == true ]] ; then
 fi
 
 # 命令执行
-# 命令执行
 command=${command_array[$number]}
 OLD_IFS="$IFS"
 IFS="&&"
